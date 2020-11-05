@@ -14,7 +14,7 @@ namespace Commander.Data
             return new Command { Id = 0, HowTo = "Boil An Egg", Line = "Boil Water", Platform = "Kettle & Pan" };
         }
 
-        public IEnumerable<Command> GetCommands()
+        public IEnumerable<Command> GetAllCommands()
         {
             var commands = new List<Command>()
             {
